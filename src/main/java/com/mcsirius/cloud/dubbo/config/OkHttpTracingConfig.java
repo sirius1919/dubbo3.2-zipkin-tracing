@@ -8,9 +8,9 @@ import zipkin2.reporter.okhttp3.OkHttpSender;
 /**
  * Created with IntelliJ IDEA.
  *
- * @author: bakerZhu
- * @description:
- * @time: 2018年09月15日
+ * @author: mcsirius.wang
+ * @description: OKHttp3 tracing 配置类
+ * @time: 2024年07月05日
  * @modifytime:
  */
 public class OkHttpTracingConfig extends AbstractConfig {

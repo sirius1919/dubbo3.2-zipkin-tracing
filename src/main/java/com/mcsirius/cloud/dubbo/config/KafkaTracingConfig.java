@@ -9,9 +9,9 @@ import zipkin2.reporter.kafka.KafkaSender;
 /**
  * Created with IntelliJ IDEA.
  *
- * @author: bakerZhu
- * @description:
- * @time: 2018年09月15日
+ * @author: mcsirius.wang
+ * @description: kafka tracing 配置类
+ * @time: 2024年07月05日
  * @modifytime:
  */
 public class KafkaTracingConfig extends AbstractConfig{

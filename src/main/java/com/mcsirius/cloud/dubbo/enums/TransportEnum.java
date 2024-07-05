@@ -3,9 +3,9 @@ package com.mcsirius.cloud.dubbo.enums;
 /**
  * Created with IntelliJ IDEA.
  *
- * @author: bakerZhu
+ * @author: mcsirius.wang
  * @description: 数据传输方式
- * @time: 2018年09月15日
+ * @time: 2024年07月05日
  * @modifytime:
  */
 public enum  TransportEnum {

@@ -14,9 +14,9 @@ import java.util.concurrent.TimeUnit;
 /**
  * Created with IntelliJ IDEA.
  *
- * @author: bakerZhu
- * @description:
- * @time: 2018年09月15日
+ * @author: mcsirius.wang
+ * @description: tracing 配置抽象类
+ * @time: 2024年07月05日
  * @modifytime:
  */
 public abstract class AbstractConfig {

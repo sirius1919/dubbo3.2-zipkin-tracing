@@ -27,7 +27,14 @@ import java.util.Arrays;
 import java.util.Map;
 import java.util.concurrent.Future;
 
-
+/**
+ * Created with IntelliJ IDEA.
+ *
+ * @author: mcsirius.wang
+ * @description: tracingFilter
+ * @time: 2024年07月05日
+ * @modifytime:
+ */
 @Activate(group = {Constants.PROVIDER_PROTOCOL, Constants.CONSUMER_PROTOCOL}, order = 100, value = "dubboTraceFilter")
 public class DubboTraceFilter implements Filter {
 

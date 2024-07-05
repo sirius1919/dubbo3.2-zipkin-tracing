@@ -10,9 +10,9 @@ import java.util.Properties;
 /**
  * Created with IntelliJ IDEA.
  *
- * @author: bakerZhu
- * @description : 读取资源文件
- * @time: 2018年09月13日
+ * @author: mcsirius.wang
+ * @description: 读取资源文件
+ * @time: 2024年07月05日
  * @modifytime:
  */
 public class TracingMetaInfo {

@@ -12,7 +12,7 @@ import org.slf4j.LoggerFactory;
  * Created with IntelliJ IDEA.
  *
  * @author: mcsirius.wang
- * @description:
+ * @description: 单例tracing工厂
  * @time: 2024年07月05日
  * @modifytime:
  */
