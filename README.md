@@ -1,9 +1,11 @@
 # Dubbo3.2.x + Zipkin3.3.x + Brave + Kafka 实现全链路追踪
 
 分布式跟踪系统还有其他比较成熟的实现，例如：Naver的Pinpoint、Apache的HTrace、阿里的鹰眼Tracing、京东的Hydra、新浪的Watchman，美团点评的CAT，skywalking等。
+
 本次主要利用Dubbo数据传播特性扩展Filter接口来实现链路追踪的目的
 
 本项目基于dubbo 3.2.14 + zipkin 3.3.0 进行开发。
+
 如果想要了解dubbo 2.7之前版本的zipkin tracing解决方案，请参考“ZhuBaker/Tracing”项目（项目地址：https://github.com/ZhuBaker/Tracing ）
 
 ## 快速启动zipkin
