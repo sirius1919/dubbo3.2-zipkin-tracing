@@ -19,7 +19,7 @@ java -jar zipkin.jar
 
 输入  http://localhost:9411/zipkin/
 进入WebUI界面如下
-![zipUI](Images\zipUI.png "zipUI")
+![zipUI](Images/zipUI.png "zipUI")
 
 ---
 
@@ -63,18 +63,18 @@ POM依赖添加
 | kafka_topic    |     zipkin     | 传输方式为kafka时的topic                                                                                     |
 
 资源目录根路径下添加tracing.properties文件
-![tracing.properties](Images\tracing.properties.png "tracing.properties")
+![tracing.properties](Images/tracing.properties.png "tracing.properties")
 
 一次调用信息
 
-![tracing.properties](Images\first_request.png "tracing.properties")
+![tracing.properties](Images/first_request.png "tracing.properties")
 
 依赖关系
-![tracing.properties](Images\dependency.png "tracing.properties")
+![tracing.properties](Images/dependency.png "tracing.properties")
 
 调用链
 
-![tracing.properties](Images\trace.png "tracing.properties")
+![tracing.properties](Images/trace.png "tracing.properties")
 
 ---
 
