@@ -45,9 +45,10 @@ java -jar zipkin.jar
 POM依赖添加
 
 ```xml
+<!--自定义dubbo zipkin tracer-->
 <dependency>
-    <groupId>com.github.baker</groupId>
-    <artifactId>Tracing</artifactId>
+    <groupId>com.mcsirius.cloud</groupId>
+    <artifactId>cloud-dubbo-zipkin-tracing</artifactId>
     <version>1.0-SNAPSHOT</version>
 </dependency>
 ```
