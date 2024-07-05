@@ -1,0 +1,5 @@
+## type http/kafka
+transport_type=http
+zipkin_host=localhost:9411
+service_name=trace-default
+kafka_topic=zipkin

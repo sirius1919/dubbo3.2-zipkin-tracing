@@ -1,0 +1,1 @@
+dubboTraceFilter=com.mcsirius.cloud.dubbo.filter.DubboTraceFilter
