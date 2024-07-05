@@ -56,12 +56,12 @@ POM依赖添加
 ## 变量默认值(不进行设置则按如下配置)
 
 
-| Key            | Default Value | Description                                                                                                  |
-| -------------- | :------------: | ------------------------------------------------------------------------------------------------------------ |
-| transport_type |      http      | 数据传输方式,支持 http/kafka 两种                                                                            |
-| zipkin_host    | localhost:9411 | 传输目的地：<br/>传输方式为http时,为zipkin地址 . <br/> 传输方式为kafka时,为 kafka地址,broker之间以逗号间隔 . |
-| service_name   | trace-default | 项目(节点)标识                                                                                               |
-| kafka_topic    |     zipkin     | 传输方式为kafka时的topic                                                                                     |
+| Key            | Default Value | Description                                                                |
+| -------------- | :------------: |----------------------------------------------------------------------------|
+| transport_type |      http      | 数据传输方式，支持 http/kafka 两种                                                    |
+| zipkin_host    | localhost:9411 | 传输目的地：<br/>传输方式为http时，为zipkin地址。 <br/> 传输方式为kafka时，为kafka地址，broker之间以逗号间隔。 |
+| service_name   | trace-default | 项目(节点)标识                                                                   |
+| kafka_topic    |     zipkin     | 传输方式为kafka时的topic                                                          |
 
 资源目录根路径下添加tracing.properties文件
 ![tracing.properties](Images/tracing.properties.png "tracing.properties")
