@@ -18,7 +18,6 @@
     </properties>
 
     <dependencies>
-
         <!--micrometer-tracing-bridge-brave适配zipkin的桥接包-->
         <dependency>
             <groupId>io.micrometer</groupId>
